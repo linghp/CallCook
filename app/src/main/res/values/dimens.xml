@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="spacing_minor">8dp</dimen>
+    <dimen name="spacing_major">16dp</dimen>
+    <dimen name="spacing_massive">24dp</dimen>
+    <!-- 标题大小  -->
+    <dimen name="title_txt_size">16sp</dimen><!-- 页面title  -->
+    <dimen name="large_title_txt_size">18sp</dimen><!-- 页面title  -->
+    <dimen name="btn_txt_size">20sp</dimen><!-- 页面title  -->
+
+    <dimen name="codelab_fab_margin_right">0dp</dimen>
+    <dimen name="codelab_fab_margin_bottom">0dp</dimen>
+</resources>

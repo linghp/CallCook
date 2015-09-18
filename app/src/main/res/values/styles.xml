@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="BaseTheme">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/orange700</item>
+        <item name="colorAccent">@color/orange700</item>
+        <item name="android:textColorPrimary">@color/txt_white</item>
+        <item name="android:windowBackground">@color/bg_gray</item>
+        <item name="android:textColor">@color/default_text</item>
+        <item name="android:textSize">14.0sp</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="Text.Title" parent="@style/Text">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Text.Titlesub" parent="@style/Text">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="searchstyle">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginBottom">9dp</item>
+        <item name="android:layout_marginTop">9dp</item>
+        <item name="android:background">@drawable/search_bg</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>
