@@ -51,14 +51,14 @@ public class HomeAdapter extends CommonRcvAdapter<HomeBean>{
 
         @Override
         public int getLayoutResId() {
-            return R.layout.demo_item_text;
+            return R.layout.item_home_rcv;
         }
 
         TextView textView;
 
         @Override
         public void findViews(View root) {
-            textView = (TextView) root.findViewById(R.id.textView);
+            textView = (TextView) root.findViewById(R.id.tv_01);
         }
 
         @Override
@@ -72,7 +72,7 @@ public class HomeAdapter extends CommonRcvAdapter<HomeBean>{
 
         @Override
         public int getLayoutResId() {
-            return R.layout.home_rcv_header;
+            return R.layout.header_home_rcv;
         }
 
         private TagViewPager tagViewPager;
